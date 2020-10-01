@@ -1,0 +1,62 @@
+.input_container {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.input_container input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.input_container button {
+  cursor: pointer;
+}
+.tableStyle {
+  width: 100%;
+  overflow: auto;
+  background: aliceblue;
+}
+.tableStyle,
+th,
+td {
+  border-top: 1px solid #c8bdbd;
+  border-collapse: collapse;
+}
+.tableStyle tr th,
+.tableStyle tr td {
+  padding: 10px;
+  text-align: left;
+}
+.tableStyle tr {
+  display: grid;
+  grid-template-columns: 90px 1fr 1fr 1fr;
+  /* background: yellowgreen; */
+  justify-content: space-around;
+}
+
+/* ////pagination */
+.numbers {
+  border: 1px solid grey;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.prevBtn {
+  cursor: pointer;
+}
+
+.nextBtn {
+  cursor: pointer;
+}
+.pagination_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
