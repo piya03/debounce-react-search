@@ -13,7 +13,6 @@ function SearchBox(props) {
           value={inputValue}
           onChange={onChange}
         />
-        {/* <button onClick={onClickBtn}>Advance Filter</button> */}
       </div>
     </div>
   );

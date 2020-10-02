@@ -7,10 +7,9 @@ function Pagination(props) {
     dataPerPage,
     currentPage,
     setCurrentPage,
-    indexOfFirstData,
-    indexOfLastData,
+
     totalData,
-    paginate
+    paginate,
   } = props;
   let pageNumber = [];
 
@@ -48,7 +47,7 @@ function Pagination(props) {
             <span
               style={{
                 background: currentPage === each ? "teal" : "white",
-                color: currentPage === each ? "white" : "black"
+                color: currentPage === each ? "white" : "black",
               }}
               onClick={() => {
                 paginate(each);

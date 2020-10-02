@@ -1,10 +1,4 @@
-import React, {
-  useState,
-  useEffect,
-  useRef,
-  useMemo,
-  useCallback
-} from "react";
+import React, { useState, useEffect } from "react";
 import "./styles.css";
 import SearchBox from "./Component/SearchBox";
 import TableData from "./Component/TableData";
@@ -72,7 +66,6 @@ export default function App() {
         inputValue={inputVal}
         onChange={(e) => {
           setInputVal(e.target.value);
-          // debounce(resultBasedOnSearch, 3000);
           setCurrentPage(1);
         }}
       />
